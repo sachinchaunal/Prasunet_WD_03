@@ -1,37 +1,56 @@
 # Prasunet_WD_03
 
-🚀 **Completed Task: Building a Tic-Tac-Toe Web Application!** 🎉
+# Tic-Tac-Toe Web Application
 
-I'm excited to share that I've just completed a project where I built a fully functional Tic-Tac-Toe web application using HTML, CSS, and JavaScript. This task was both challenging and rewarding, and I wanted to share some insights and knowledge I gained during the process.
+## Overview
 
-### 🛠️ **Technologies and Tools Used:**
-- **HTML**: Structured the game board and UI elements.
-- **CSS**: Styled the game to make it visually appealing with custom colors and animations.
-- **JavaScript**: Implemented game logic, including handling user clicks, tracking game state, and checking for winning conditions.
+This is a web-based Tic-Tac-Toe game developed using HTML, CSS, and JavaScript. The application supports both Player vs Player and Player vs AI modes, providing a simple yet engaging experience for users.
 
-### 📚 **Key Learnings:**
-1. **Responsive Design**: Ensured the game is responsive and looks great on various screen sizes.
-2. **Game Logic Implementation**: Developed functions to handle player moves, alternate turns, and determine the game outcome (win/draw).
-3. **AI Opponent**: Created a simple AI opponent using the Minimax algorithm to challenge players.
-4. **User Experience Enhancements**: Added features like hover effects, animations, and dynamic status updates to enhance user engagement.
+## Features
 
-### 🌟 **Features:**
 - **Player vs Player Mode**: Play against another human player.
-- **Player vs AI Mode**: Test your skills against an AI opponent.
-- **Dynamic Turn Indication**: Clearly shows whose turn it is with visual indicators.
+- **Player vs AI Mode**: Challenge an AI opponent.
+- **Dynamic Turn Indication**: Shows whose turn it is with visual indicators.
 - **Winning Highlights**: Highlights the winning combination when a player wins.
+- **Responsive Design**: Ensures a great experience on various screen sizes.
+- **Interactive UI**: Includes hover effects and animations for better user engagement.
 
-### 🔍 **Highlights:**
-- Customizing the user interface with modern design techniques.
-- Implementing a robust game logic that handles all possible game states.
-- Learning and applying the Minimax algorithm for the AI player.
+## Technologies Used
 
-### 💡 **Challenges Overcome:**
-- Ensuring smooth transitions and animations without affecting game performance.
-- Balancing the difficulty level of the AI to make the game enjoyable for players.
-
-
-I'm thrilled with the outcome and eager to apply these skills to more complex projects in the future. If you have any feedback or suggestions, I'd love to hear from you!
+- **HTML**: Structure of the web application.
+- **CSS**: Styling for the game elements.
+- **JavaScript**: Game logic and interactivity.
 
 
-#Prasunet #WebDevelopment #TicTacToe #JavaScript #HTML #CSS #AI #Programming #Learning #ProjectCompletion #TechJourney
+## How to Play
+
+1. **Choose Game Mode**: Select between Player vs Player and Player vs AI from the dropdown menu.
+2. **Start Playing**: Click on any cell in the game board to make a move.
+3. **Turn Indication**: The current player's turn is indicated at the top.
+4. **Winning or Draw**: The game announces the winner and highlights the winning cells or declares a draw if no more moves are possible.
+5. **Restart Game**: Click the "Restart Game" button to start a new game.
+
+## Game Logic
+
+- **Check for Win**: The game checks for a winning combination after each move.
+- **AI Move**: The AI uses the Minimax algorithm to decide its moves, making it a challenging opponent.
+
+## Code Structure
+
+- `index.html`: The main HTML file containing the structure of the game.
+- `style.css`: Contains all the CSS styles for the game.
+- `script.js`: The JavaScript file that includes the game logic.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgements
+
+- Inspiration from classic Tic-Tac-Toe games.
+- Tutorials and resources from the web community.
+
+## Contact
+
+For any questions or suggestions, please feel free to open an issue or contact me at sachinchaunal@gmail.com.
